@@ -1,0 +1,14 @@
+opencv-python
+numpy
+requests
+pyserial
+flask
+python-dotenv
+onnxruntime
+insightface
+sqlalchemy
+streamlit
+streamlit-autorefresh
+discord.py
+pandas
+colorama

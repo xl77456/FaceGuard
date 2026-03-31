@@ -1,0 +1,42 @@
+# ===== 敏感資訊（絕對不要上傳）=====
+.env
+
+# ===== 個人生物特徵資料（隱私）=====
+whitelistv2.npz
+dataset/
+alert_image/
+
+# ===== 資料庫（含個人進出記錄）=====
+*.db
+*.sqlite
+
+# ===== AI 模型（檔案過大，應另行提供下載）=====
+models/buffalo_l/
+models/buffalo_l.zip
+# modelrgb.onnx 為自訓練模型，視情況決定是否上傳（目前 1.4MB，在 GitHub 限制內）
+
+# ===== Python 快取 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== 虛擬環境 =====
+venv/
+env/
+.venv/
+
+# ===== 暫存檔 =====
+temp_*.mp4
+*.tmp
+
+# ===== IDE 設定 =====
+.vscode/
+.idea/
+*.suo
+*.user
